@@ -1,19 +1,16 @@
-apply {
-    from "${rootDir.path}/config_lib.gradle"
-}
-
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api project(':utilcode-lib')
-    api project(':subutil-lib')
+    api Config.depConfig.lib_subutil.dep
+    api Config.depConfig.lib_utilcode.dep
 
-    api dep.support.appcompat_v7
-    api dep.support.design
-    api dep.support.multidex
-    api dep.constraint
-    api dep.kotlin
-    api dep.free_proguard
-    api 'com.r0adkll:slidableactivity:2.0.5'
-    compileOnly dep.leakcanary.android_no_op
-//    api 'com.blankj:utilcode:1.23.7'
+    api Config.depConfig.support_appcompat_v7.dep
+    api Config.depConfig.support_design.dep
+    api Config.depConfig.support_multidex.dep
+    api Config.depConfig.support_constraint.dep
+    api Config.depConfig.kotlin.dep
+    api Config.depConfig.free_proguard.dep
+    api Config.depConfig.swipe_panel.dep
+    api Config.depConfig.eventbus_lib.dep
+    compileOnly Config.depConfig.lib_utildebug_no_op.dep
+    compileOnly Config.depConfig.leakcanary_android_no_op.dep
 }

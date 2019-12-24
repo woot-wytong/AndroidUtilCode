@@ -1,3 +1,54 @@
+* `19/11/28` [add] Publish v1.26.0.
+* `19/11/27` [add] Shadow demo.
+* `19/11/26` [add] MVP demo.
+* `19/11/22` [fix] Adapt the project for Gradle version of 6.0.
+* `19/10/30` [add] Publish bus plugin v2.3. Publish api plugin v1.1.
+* `19/10/24` [upd] Demo's UI.
+* `19/10/22` [add] NotificationUtils and demo.
+* `19/10/20` [add] UiMessageUtils.
+* `19/09/20` [add] ShadowUtils.
+* `19/08/27` [add] DebugUtils.
+* `19/08/26` [fix] PermissionUtils NPE.
+* `19/08/25` [upd] ImageUtils#getImageType. [add] LogUtils#getLogFiles. Publish v1.25.9.
+* `19/08/24` [fix] PhoneUtils#getIMEI crash on SDK 29.
+* `19/08/23` [add] ViewUtils#isLayoutRtl.
+* `19/08/22` [add] LogUtils#getLogFiles.
+* `19/08/13` [add] MapUtils and MapUtilsTest. Publish v1.25.8.
+* `19/08/12` [add] CollectionUtils and CollectionUtilsTest.
+* `19/08/11` [add] ArrayUtils and ArrayUtilsTest.
+* `19/08/09` [fix] https://www.virustotal.com/gui/home/upload with ESET-NOD32. Publish v1.25.7.
+* `19/08/08` [add] BusUtils#post tag support one-to-many. Publish v1.25.6.
+* `19/08/04` [add] ThreadUtils#Task support timeout.
+* `19/08/01` [upd] EncryptUtils#rsa.
+* `19/07/31` [add] DeviceUtils#getUniqueDeviceId, DeviceUtils#isSameDevice. Publish v1.25.5.
+* `19/07/30` [fix] ThreadUtils's task can only be executed once. PhoneUtils#getIMEI wrong.
+* `19/07/29` [fix] BusUtils post father class useless. KeyboardUtils#hideSoft bug. Publish v1.25.4.
+* `19/07/28` [add] NetworkUtils#(un)registerNetworkStatusChangedListener. Publish v1.25.3.
+* `19/07/27` [fix] ThreadUtils memory leak.
+* `19/07/26` [add] ContainerUtils. Publish v1.25.2.
+* `19/07/25` [fix] PermissionUtils' NullPointException.
+* `19/07/24` [fix] ZipUtils#unzipFile.
+* `19/07/23` [fix] ThreadUtils of cache pool. Publish v1.25.1.
+* `19/07/18` [add] README of ApiUtils and BusUtils.
+* `19/07/15` [add] Publish v1.25.0.
+* `19/07/14` [upd] Bus plugin for use BusUtils. Publish bus plugin v2.0.
+* `19/07/13` [add] Api plugin for use ApiUtils. Publish api plugin v1.0.
+* `19/07/09` [upd] The frame of project.
+* `19/07/06` [upd] BusUtils which behave same as EventBus.
+* `19/07/03` [add] ApiUtils which decoupling modules.
+* `19/06/30` [add] LanguageUtils support activity's class name.
+* `19/06/29` [add] ClickUtils#OnMultiClickListener, and remove dangerous function. Publish v1.24.6.
+* `19/06/28` [add] LanguageUtils. Publish v1.24.5.
+* `19/06/20` [fix] BusUtils' permission. Publish v1.24.4.
+* `19/06/19` [fix] UriUtils. Publish v1.24.3.
+* `19/06/18` [add] ClickUtils, ViewUtils.
+* `19/06/07` [fix] LogUtils file name contains ':'. Publish v1.24.2.
+* `19/06/06` [fix] LogUtils write to file. Publish v1.24.1.
+* `19/06/03` [fix] Refactoring framework. Publish v1.24.0.
+* `19/04/25` [fix] LogUtils delete due log.
+* `19/04/24` [upd] The swipe panel.
+* `19/03/17` [fix] The ugly UI.
+* `19/03/14` [fix] AdaptScreenUtils didn't work on some HaWei tablet.
 * `19/03/08` [add] LogUtils support multi process. Publish v1.23.7.
 * `19/03/02` [fix] LogUtils#file.
 * `19/02/28` [fix] ImageUtils#calculateInSampleSize. Publish v1.23.6.
